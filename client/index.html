@@ -6,12 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>ChatBot</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/all.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+    <script src="./js/main.js" defer></script>
 </head>
 
 <body>
-    <h1>Hello Worlds</h1>
+    <div class="chatbot">
+        <header class="chatot-headder">
+            <h2 class="poppins-semibold">Chatbot</h2>
+        </header>
+        <div class="chat-parent">
+            <ul class="chatbox">
+                <li class="chat incoming">
+                    <i class="fa-solid fa-robot"></i>
+                    <p>Hi there... How can I help you today?</p>
+                </li>
+                <!-- <li class="chat outgoing">
+                    <p>Hi vanakam</p>
+                    <i class="fa-solid fa-robot"></i>
+                </li> -->
+            </ul>
+        </div>
+        <div class="chat_input">
+            <textarea placeholder="Enthe a message" class="input_msg" required></textarea>
+            <i class="fa-solid fa-paper-plane"></i>
+        </div>
+    </div>
 </body>
 
 </html>
